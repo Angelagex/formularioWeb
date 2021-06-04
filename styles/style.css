@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(119deg, rgba(1, 70, 58,0.8), rgba(73, 252, 222, 0.7)),url(../multimedia/formulariobg.jpg);
+    color: burlywood;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#container {
+    display: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 100%;
+    background: rgba(1, 11, 55, 0.652);
+    border-radius: 4px;
+    border:rgba(1, 11, 55, 0.652);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    
+
+}
+#title {
+    color: rgb(223, 33, 81);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -25px;
+    font-size: 80px;
+    font-family: 'Concert One', cursive;
+    font-weight: bold;
+    text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);;
+
+}
+#description {
+    padding: 20px;
+    text-align: center;
+}
+.headers {
+    padding: 20px;
+    font-family: serif;
+    display: inline-block; 
+    font-family: 'Open Sans', sans-serif;  
+}
+#Masculino {
+    margin-top: 30px;
+}
+.generos{
+    display: inline-block;
+    margin: 20px;
+}
+.generos2 {
+    display: inline-block;
+    margin: 10px;
+}
+li {
+    list-style: none;
+    
+}
+#name-label {
+    position: relative;
+    margin-top: -10px;
+}
+#generosx-label {
+    position: relative;
+    margin-top: 20px;
+}
+#descripcion {
+    display: inline-block;
+    width: 450px;
+    border-radius: 4px;
+    border-color: whitesmoke;
+    height: 100px;
+}
+#submit {
+    display: flex;
+    position: relative;
+    padding: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background: rgb(10, 158, 14);
+    border-radius: 2px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+#submit:hover {
+    font-size: 14px;
+}
+#survey-form {
+    padding: 5px;
+}
+label>ul>li{
+    display: none;
+  }
+label:hover>ul>li {
+    display:block;
+}
+#name, #email, #number {
+    width: 450px;
+    border-radius: 4px;
+    border-color: whitesmoke;
+    height: 20px;
+}
+#dropdown {
+    display: flex;
+    position: relative;
+    padding: 4px;
+    margin-top: -5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 4px;
+}

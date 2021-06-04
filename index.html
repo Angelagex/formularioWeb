@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Web</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="container">
+        <h1 id="title">Anime Lov3rs <em>Formulario</em></h1>
+        <p id="description">Únete a la comunidad mas grande de personas que aman el anime tanto como tú</p>
+        <form id="survey-form">
+            <label for="name" id="name-label" class="headers"><strong>Nombre</strong> <input type="text" id="name"
+                    placeholder="Ingresa tu nombre" required="false"></label><br>
+            <label for="email" id="email-label" class="headers"><strong>Email</strong> <input type="email" id="email"
+                    placeholder="Ingresa tu correo" required="false"></label><br>
+            <label for="number" id="number-label" class="headers"><strong>Edad</strong> <input type="number"
+                    inputmode="numeric" id="number" placeholder="Cuantos años tienes" min="1" max="120"></label><br />
+            <label for="generosx" id="generosx-label" class="headers"><strong>Selecciona tu género</strong> <br>
+                <input class=generos type="radio" id="Masculino" name="generosx" value="Masculino">Masculino<br>
+                <input class=generos type="radio" id="Femenino" name="generosx" value="Femenino">Femenino<br>
+                <input class=generos type="radio" id="No" name="generosx" value="No">Prefiero no decirlo</label><br>
+            <label for="genero" id="generos2" class="headers"><strong>Mis géneros favoritos</strong>
+                <ul>
+                    <li><input type="checkbox" name="genero" class="generos2" value="1"> Acción</li>
+                    <li><input type="checkbox" name="genero" class="generos2" value="2"> Aventura</li>
+                    <li><input type="checkbox" name="genero" class="generos2" value="3"> Comedia</li>
+                    <li><input type="checkbox" name="genero" class="generos2" value="4"> Romance</li>
+                    <li><input type="checkbox" name="genero" class="generos2" value="5"> Fantasia</li>
+                    <li><input type="checkbox" name="genero" class="generos2" value="6"> Terror</li>
+                    <li><input type="checkbox" name="genero" class="generos2" value="7"> Psicológico</li>
+                </ul>
+            </label><br>
+
+            <label class="headers" for="descripcion" id="name-label"><strong>Descripción</strong> <br><textarea
+                    id="descripcion" placeholder="Danos una breve descripción sobre ti"></textarea></label><br>
+            <label class="headers" for="politicas"><select name="Info" id="dropdown">
+                    <option disabled="" selected="" value="" required="false">Para continuar debes aceptar nuestras
+                        politicas de privacidad</option>
+                    <option value="Si">Obvio si! Vamos a ver anime</option>
+                    <option value="No">No, siempre leo todo antes de firmar</option>
+                </select></label><br>
+            <input type="submit" id="submit" value="Veamos Anime!">
+
+
+        </form>
+    </div>
+</body>
+
+</html>
