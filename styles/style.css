@@ -13,14 +13,15 @@ body {
     background: rgba(1, 11, 55, 0.652);
     border-radius: 4px;
     border:rgba(1, 11, 55, 0.652);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-sizing: border-box ;
+    padding: 20px;
     
 
 }
 #title {
     color: rgb(223, 33, 81);
     text-align: center;
-    padding: 20px;
     margin-bottom: -25px;
     font-size: 80px;
     font-family: 'Concert One', cursive;
@@ -29,14 +30,13 @@ body {
 
 }
 #description {
-    padding: 20px;
     text-align: center;
 }
 .headers {
-    padding: 20px;
     font-family: serif;
     display: inline-block; 
     font-family: 'Open Sans', sans-serif;  
+    width: 100%;
 }
 #Masculino {
     margin-top: 30px;
@@ -63,10 +63,11 @@ li {
 }
 #descripcion {
     display: inline-block;
-    width: 450px;
+    width: 100%;
     border-radius: 4px;
     border-color: whitesmoke;
     height: 100px;
+    margin-top: 10px;
 }
 #submit {
     display: flex;
@@ -76,6 +77,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    margin-top: 20px;
     background: rgb(10, 158, 14);
     border-radius: 2px;
     color: white;
@@ -87,24 +89,29 @@ li {
 }
 #survey-form {
     padding: 5px;
+    padding-bottom: 20px;
 }
-label>ul>li{
-    display: none;
-  }
-label:hover>ul>li {
-    display:block;
-}
+
 #name, #email, #number {
-    width: 450px;
+    width: 100%;
     border-radius: 4px;
     border-color: whitesmoke;
     height: 20px;
 }
 #dropdown {
-    display: flex;
-    position: relative;
-    padding: 4px;
-    margin-top: -5px;
+    width: 100%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-radius: 4px;
+}
+
+@media (min-width: 320px) and (max-width: 1240px) {
+
+    #container {
+        width: 90%;
+    }
+    #title {
+        font-size: 17vw;
+    }
+
+
 }
